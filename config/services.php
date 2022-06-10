@@ -38,8 +38,8 @@ return [
     ],
 
     'google' => [
-        'client_id'     => "377997875296-tr3tqrpp0dpt5pf7d74nhdnel6ml8b0r.apps.googleusercontent.com",
-        'client_secret' => "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",
+        'client_id'     =>env('GL_ID'),
+        'client_secret' => env('GL_SECRET'),
         'redirect'      => env('APP_URL') . '/oauth/google/callback',
     ],
 ];
